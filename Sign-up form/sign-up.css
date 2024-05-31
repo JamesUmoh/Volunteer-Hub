@@ -1,0 +1,360 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    font-size: 20px;
+}
+
+.container-form{
+    width: 50%;
+    background-color: rgb(78, 57, 65);
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    height: 110vh;
+    position: relative;
+}
+
+.container-form h1, p {
+    color: white;
+}
+    /* here is my home button style */
+
+    .next{
+        position: absolute;
+        top: 7%;
+        left: 10%;
+        font-size: 25px;
+    }
+
+    .fa-house{
+        color: rgb(56, 138, 2);
+    }
+
+
+input[type=text]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 18px;
+    border: 1px solid gray;
+    text-indent: 25px;
+}
+
+
+input[type=text]:focus{
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+}
+
+::placeholder{
+    font-size: 18px;
+    color: rgb(240, 31, 31);
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+.user{
+    position: absolute;
+    top: 24%;
+    left: 24%;
+    font-size: 20px;
+}
+
+.form-username{
+    position: relative;
+    margin-top: 0px;
+
+}
+
+
+
+            /* here email style section */
+
+input[type=email]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 18px;
+    border: 1px solid gray;
+    text-indent: 25px;
+}
+
+
+input[type=email]:focus{
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+}
+
+::placeholder{
+    font-size: 18px;
+    color: rgb(226, 63, 22);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.email{
+    position: absolute;
+    top: 26%;
+    left: 24%;
+    font-size: 20px;
+    /* background-color: #d10e00; */
+}
+
+.form-email{
+    position: relative;
+    margin-top: 30px;
+}
+
+
+
+    /* here is my style for phone number */
+
+    input[type=tel]{
+        width: 50%;
+        padding: 15px;
+        border-radius: 18px;
+        border: 1px solid gray;
+    }
+    
+    
+    input[type=tel]:focus{
+        border-radius: 15px;
+        border: 1px solid lightblue;
+        outline: none;
+    }
+
+    form button {
+        margin-top: 1em;
+        padding: 0.5em;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 9px;
+        width: 9rem;
+        cursor: pointer;
+    }
+    
+    
+    ::placeholder{
+        font-size: 18px;
+        color: lightblue;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .hidden {
+        display: none;
+    }
+    
+    
+    .sub-form{
+        margin-top: 30px;
+    }
+
+
+    /* here is my style for register button */
+
+    .btn-btn{
+        background-color: rgb(56, 138, 2);
+        padding: 15px 40px;
+        border: none;
+        border-radius: 18px;
+        font-size: 20px;
+        width: 50%;
+
+    }
+
+
+
+        /* here is my style for divider */
+
+        .divider{
+            display: flex;
+            align-items: center;
+        }
+
+    .divider::before, .divider::after{
+        content: "";
+        padding: 1px;
+        background-color: lightblue;
+        flex: 1;
+        margin: 10px 3px;
+        margin-top: 30px;
+
+    }
+
+
+    .divider-bg{
+        background-color: white;
+        padding: 8px 10px;
+        border-radius: 50%;
+        border: 1px solid lightblue;
+        margin-top: 30px;
+    }
+
+
+    /* here is my style for password */
+
+
+    input[type=password]{
+        width: 50%;
+        padding: 15px;
+        border-radius: 18px;
+        border: 1px solid gray;
+    }
+    
+    
+    input[type=password]:focus{
+        border-radius: 15px;
+        border: 1px solid lightblue;
+        outline: none;
+    }
+    
+    ::placeholder{
+        font-size: 18px;
+        color: lightblue;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .sub-form{
+        margin-top: 30px;
+    }
+
+
+
+    .form-main{
+        padding: 30px;
+        
+    }
+
+
+    /* here is my style for social button */
+
+    .btn-social{
+        background-color: #3b5998;
+        color: white;
+        padding: 10px 25px;
+        text-decoration: none;
+        margin: 10px;
+        border-radius: 10px;
+
+    }
+
+    .btn-social:nth-child(2){
+        background-color: #26a7de;
+
+    }
+
+    .btn-social:nth-child(3){
+        background-color: #d10e00;
+
+    }
+
+
+      /* here is my style for social icons */
+
+    .fa-facebook-f{
+        padding-right: 10px;
+    }
+
+
+    .fa-x-twitter{
+        padding-right: 10px;
+    }
+
+
+    .fa-google{
+        padding-right: 10px;
+    }
+
+
+
+
+
+
+        /* here is my mobile responsive design */
+
+        @media(max-width:991px){
+
+
+        .container-form{
+            width: 100%;
+        }
+
+        .btn-social{
+            padding: 10px 25px;
+            margin: 5px;
+    
+        }
+
+        .container-form p{
+            padding: 20px;
+        }
+
+        input[type=text]{
+            width: 80%;
+        }
+
+        input[type=email]{
+        width: 80%;
+
+        }
+
+        input[type=password]{
+        width: 80%;
+
+        }
+
+        input[type=tel]{
+        width: 80%;
+
+        }
+
+        .email{
+            position: absolute;
+            top: 26%;
+            left: 9%;
+            font-size: 20px;
+        }
+
+
+        .user{
+            position: absolute;
+            top: 24%;
+            left: 9%;
+            font-size: 20px;
+        }
+
+        body{
+            overflow-x: hidden;
+        }
+
+
+        .next{
+            position: absolute;
+            top: 5%;
+            left: 8%;
+    
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+    

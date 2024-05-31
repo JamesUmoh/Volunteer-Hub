@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Donation</title>
+    <link rel="stylesheet" href="Donate.css">
+    <link rel="stylesheet" href="My font/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="next">
+            <a href="/index.html"><span><i class="fa-solid fa-house"></i></span></a>
+        </div>
+        <h1>Volunteer Donation</h1>
+    </header>
+    <main>
+        <section class="volunteer">
+
+            <div class="section-1">
+                <h2>Welcome to Our Donation Program</h2>
+                <p>Join us in supporting our community through donations.</p>
+            </div>
+
+            <div class="section-2">
+                <h2>About Us</h2>
+                <p>We are a non-profit organization dedicated to improving lives through volunteer work and donations.</p>
+            </div>
+    
+            <h2>Our Volunteers</h2>
+            <div class="volunteer-gallery">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4sSAyE35TaU4dK4gjyiZSIVBKcCAzH9HiNw&s" alt="Volunteer 1">
+                <img src="/Images/volunteer.png" alt="Volunteer 2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-kLFF-iGTkJtSkzhImhaKXPoTc898G2Hydg&s" alt="Volunteer 3">
+            </div>
+        </section>
+        <section class="donation">
+            <h2>Make a Donation</h2>
+            <form id="donationForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="amount">Donation Amount:</label>
+                <input type="number" id="amount" name="amount" required>
+                
+                <button type="submit">Donate</button>
+            </form>
+            <p id="thankYouMessage" class="hidden">Thank you for your donation!</p>
+        </section>
+    </main>
+    <script src="Donate.js"></script>
+</body>
+</html>

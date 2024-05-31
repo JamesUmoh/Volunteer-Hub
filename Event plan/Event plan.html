@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Event Planning</title>
+    <link rel="stylesheet" href="Event plan.css">
+    <link rel="stylesheet" href="My font/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="next">
+            <a href="/index.html"><span><i class="fa-solid fa-house"></i></span></a>
+        </div>
+        <h1>Volunteer Event Planning</h1>
+    </header>
+
+    <section class="event-form">
+        <h2>Plan Your Event</h2>
+        <form id="eventForm">
+            <label for="eventName">Event Name:</label>
+            <input type="text" id="eventName" name="eventName" required>
+            
+            <label for="eventDate">Event Date:</label>
+            <input type="date" id="eventDate" name="eventDate" required>
+            
+            <label for="eventTime">Event Time:</label>
+            <input type="time" id="eventTime" name="eventTime" required>
+            
+            <label for="eventImage">Event Image:</label>
+            <input type="file" id="eventImage" name="eventImage" accept="image/*" required>
+            
+            <button type="submit">Create Event</button>
+        </form>
+    </section>
+
+    <section class="event-display">
+        <h2>Upcoming Events</h2>
+        <div id="eventsContainer"></div>
+    </section>
+
+    <script src="Event plan.js"></script>
+</body>
+</html>

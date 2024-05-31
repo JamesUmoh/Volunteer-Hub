@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Health Website</title>
+    <link rel="stylesheet" href="health.css">
+    <link rel="stylesheet" href="My font/css/all.css">
+</head>
+<body>
+
+    <header>
+        <div class="next">
+            <a href="/index.html"><span><i class="fa-solid fa-house"></i></span></a>
+        </div>
+
+        <h1>Global Health Volunteer</h1>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to the Community Health Volunteer</h1>
+        <p>Our mission is to improve the health and well-being of our community.</p>
+    </section>
+
+    <section id="health-tips">
+        <h2>Health Tips</h2>
+        <p>Stay healthy with these tips:</p>
+        <ul>
+            <div class="image1">
+            <li>Eat a balanced diet</li>
+            <p>A balanced diet gives your body the nutrients it needs to function correctly.<br>
+               A balanced diet supplies the nutrients your body needs to work effectively. <br>
+               Without balanced nutrition, your body is more prone to disease, infection,<br>
+               fatigue, and low performance. Children who don’t get enough healthy foods<br>
+               may face growth and developmental problems, poor academic performance, and<br>
+                frequent infections.
+                
+                They can also develop unhealthy eating habits that may persist into adulthood. </p>
+            <img src="/Images/balanced diet.jpg" alt="">
+            </div>
+
+            <div class="image2">
+                <li>Exercise regularly</li>
+                <p>Exercise is physical activity that enhances or maintains fitness and overall health.<br>
+                   It is performed for various reasons, including weight loss or maintenance, to aid growth<br>
+                   and improve strength, develop muscles and the cardiovascular system, hone athletic skills,<br>
+                   improve health, or simply for enjoyment.</p>
+                <img src="/Images/Exercise.jpeg" alt="">
+            </div>  
+
+            <div class="image3">
+                <li>Get enough sleep</li>
+                <p>Sleep is important for maintaining optimal health and well-being. Like exercise<br>
+                   and a balanced diet, getting enough sleep may help prevent a range of health issues,<br>
+                   including heart disease and depression.</p>
+                <img src="/Images/sleep.webp" alt="">
+             </div>  
+
+            <div class="image4">
+                <li>Stay hydrated</li>
+                <p>Staying hydrated is one of the best things you can do for your overall health. Staying hydrated<br>
+                   can help support physical performance, prevent headaches and constipation, and more. The human<br>
+                   body comprises around 60% water. It’s commonly recommended that you drink eight 8-ounce (237-mL)<br>
+                   glasses of water per day (the 8×8 rule). Although there’s little science behind this specific rule,<br>
+                   staying hydrated is important. Here are 7 evidence-based health benefits of drinking plenty of water.</p>
+                <img src="/Images/Stay hydrated.jpg" alt="">
+            </div>
+                
+        </ul>
+        <div class="image">
+            <img src="/Images/" alt="">
+        </div>
+    </section>
+
+    <section id="community-events">
+        <h2>Community Events</h2>
+        <p>Join us for upcoming health events:</p>
+        <ul>
+            <div class="image1">
+            <li>Health Fair - June 20th</li>
+            <p>A health fair is an educational and interactive event designed for outreach to provide<br>
+               basic preventive medicine and medical screening to people in the community or employees<br>
+               at work in conjunction with workplace wellness. It can also be a public health intervention.</p>
+            <img src="/Images/Health Fair.jpeg" alt="">
+            </div>
+
+            <div class="image2">
+            <li>Community Walk - July 10th</li>
+            <p>Creating change requires understanding of a community's
+                nuances. How does it feel?<br> Who is a part of it? What are
+                its characteristics?
+                Begin learning the answers by walking<br> through your
+                community. Take time to reflect on what you notice</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXIbIAYssquf-NybgxVAAUuDRxn1wKxyPmLg&s" alt="">
+            </div>
+
+            <div class="image3">
+            <li>Nutrition Workshop - August 5th</li>
+            <p>Our nutrition workshops focus on community health and how eating the right food types can improve <br>
+               concentration and energy levels, keeping us alert and focused throughout the day. From the basics<br>
+               of nutrition to specific subjects</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMV4nOVvQwPFzUPbzONKfwIFLfi2qbUvGs0A&s" alt="">
+            </div>
+        </ul>
+    </section>
+
+    <section id="resources">
+        <h2>Resources</h2>
+        <p>Helpful resources for your health:</p>
+        <ul>
+            <li><a href="#">Local Health Clinics</a></li>
+            <li><a href="#">Mental Health Support</a></li>
+            <li><a href="#">Exercise Programs</a></li>
+            <li><a href="#">Nutrition Guides</a></li>
+        </ul>
+    </section>
+
+    <section id="bmi-calculator">
+        <h2>BMI Calculator</h2>
+        <form id="bmi-form">
+            <div class="input-group">
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" required>
+            </div>
+            <div class="input-group">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" required>
+            </div>
+            <button type="button" onclick="calculateBMI()">Calculate BMI</button>
+        </form>
+        <div id="result" class="result"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Community Health Volunteer. All rights reserved.</p>
+    </footer>
+    
+    <script src="health.js"></script>
+</body>
+</html>

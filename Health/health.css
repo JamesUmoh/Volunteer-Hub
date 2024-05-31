@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #005f73;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.next{
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    font-size: 25px;
+}
+
+.next i {
+    color: white;
+}
+
+#home {
+    text-align: center;
+}
+
+#health-tips ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+#health-tips h2{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+#health-tips p{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(168, 150, 218);
+}
+
+#health-tips ul img{
+    width: 60%;
+}
+
+#health-tips .image1 li{
+    color: #218838;
+    font-size: 40px;
+}
+
+#health-tips .image1 p{
+    font-size: 20px;
+}
+
+
+#health-tips .image2 li{
+    color: #218838;
+    font-size: 40px;
+    margin-top: 2rem;
+}
+
+#health-tips .image2 p{
+    font-size: 20px;
+}
+
+
+#health-tips .image3 li{
+    color: #218838;
+    font-size: 40px;
+    margin-top: 2rem;
+}
+
+#health-tips .image3 p{
+    font-size: 20px;
+}
+
+#health-tips .image4 li{
+    color: #218838;
+    font-size: 40px;
+    margin-top: 2rem;
+}
+
+#health-tips .image4 p{
+    font-size: 20px;
+}
+
+#community-events{
+    text-align: center;
+}
+
+#community-events h2{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+#community-events p{
+    font-size: 20px;
+    color: rgb(168, 150, 218); 
+}
+
+#community-events ul{
+    list-style-type: none;
+}
+
+#community-events .image1 li{
+    font-size: 30px;
+    color: #218838;
+}
+
+#community-events .image2 li{
+    font-size: 30px;
+    color: #218838;
+    margin-top: 3rem;
+}
+
+#community-events .image3 li{
+    font-size: 30px;
+    color: #218838;
+    margin-top: 3rem;
+}
+
+#community-events ul img{
+    width: 60%;
+}
+
+section {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 3rem;
+}
+
+
+footer {
+    background: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

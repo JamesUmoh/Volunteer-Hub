@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+
+main {
+    padding: 2em;
+}
+
+main h2, p{
+    text-align: center;
+    font-size: 20px;
+    color: #7c917e;
+}
+
+main h2{
+    font-size: 30px;
+    color: #005f73;
+}
+
+.next{
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    font-size: 25px;
+}
+
+.next i {
+    color: white;
+}
+
+.volunteer, .donation {
+    margin-bottom: 2em;
+}
+
+.volunteer-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.volunteer-gallery img {
+    max-width: 30%;
+    margin-bottom: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input {
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}

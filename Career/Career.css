@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+ 
+
+.next{
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    font-size: 25px;
+}
+
+.next i {
+    color: white;
+}
+
+#home, #about{
+    text-align: center;
+}
+
+section {
+    padding: 2em;
+}
+
+.opportunity {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em 0;
+    text-align: center;
+}
+
+#opportunities h2{
+    text-align: center;
+}
+
+.image img {
+    width: 40%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+}
+
+button[type=submit]{
+    margin-bottom: 5rem;
+}
+
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

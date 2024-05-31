@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/Images/my\ bg.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form-container {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.next{
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    font-size: 25px;
+}
+
+.next i {
+    color: white;
+}
+
+.form-section{
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    line-height: 30px;
+    margin-top: 36rem;
+    justify-content: space-around;
+}
+
+.first-contact{
+    background-color: #ccc;
+    margin-top: 6rem;
+    width: 60%;
+    height: 50vh;
+}
+
+.first-section{
+    display: flex;
+}
+
+.image-section img {
+    margin-top: 11rem;
+    width: 40%;
+    margin-left: 40rem;
+    position: absolute;
+}
+
+.first-contact{
+    position: absolute;
+}
+
+.first-contact h2{
+    padding-left: 40px;
+    padding-top: 60px;
+    font-size: 70px;
+    color: green;
+}
+
+.first-contact p{
+    padding-left: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+.contact-form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: red;
+}
+
+#contactForm h2{
+    color: black;
+}
+
+.text-section h2{
+    color: black;
+}
+
+.address h2{
+    color: red;
+}
+
+.contact h2{
+    color: red;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+/* This is Mobile responsive section */
+
+@media screen and (max-width:1045px){
+    .form-section{
+        background-color: aqua;
+        flex-direction: column;
+        width: 100%;
+        height: 200vh;
+        line-height: 30px;
+        margin-top: 36rem;
+        padding-left: 20px;
+    }
+
+    .first-section{
+        flex-direction: column;
+    }
+
+    .image-section img {
+        margin-top: 25rem;
+        width: 70%;
+        margin-left: 2rem;
+        position: absolute;
+    }
+
+    .first-contact h2{
+        padding-left: 40px;
+        padding-top: 60px;
+        font-size: 30px;
+        color: green;
+    }
+
+
+    .first-contact{
+        background-color: #ccc;
+        margin-top: 6rem;
+        width: 60%;
+        height: 80vh;
+    }
+    
+    
+    
+}
+
+@media (min-width:300px) and (max-width:900px) {
+    .form-section{
+        background-color: aqua;
+        flex-direction: column;
+        width: 100%;
+        height: 200vh;
+        line-height: 30px;
+        margin-top: 40rem;
+    }
+
+    .first-section{
+        flex-direction: column;
+    } 
+
+
+    .image-section img {
+        margin-top: 25rem;
+        width: 70%;
+        margin-left: 2rem;
+        position: absolute;
+    }
+
+    .first-contact h2{
+        padding-left: 40px;
+        padding-top: 60px;
+        font-size: 30px;
+        color: green;
+    }
+
+
+    .first-contact{
+        background-color: #ccc;
+        margin-top: 6rem;
+        width: 60%;
+        height: 80vh;
+    }
+}
+
+
+@media (min-width:587px) and (max-width:1000px){
+    .form-section{
+        background-color: aqua;
+        flex-direction: column;
+        width: 100%;
+        height: 200vh;
+        line-height: 30px;
+        margin-top: 44rem;
+    }
+}
+
+
+@media (min-width:820px) and (max-width:1000px){
+    .form-section{
+        background-color: aqua;
+        flex-direction: column;
+        width: 100%;
+        height: 200vh;
+        line-height: 30px;
+        margin-top: 48rem;
+    }
+}
+
+
